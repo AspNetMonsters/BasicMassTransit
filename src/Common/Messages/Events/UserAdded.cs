@@ -7,6 +7,6 @@ namespace Common.Messages.Events
 {
     public class UserAdded
     {
-        public string EMailAddress { get; set; }
+        string EMailAddress { get; set; }
     }
 }

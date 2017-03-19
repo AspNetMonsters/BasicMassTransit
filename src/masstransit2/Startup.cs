@@ -56,6 +56,7 @@ namespace masstransit2
                 );
             })
            .As<IBusControl>()
+           .As<IBus>()
            .As<IPublishEndpoint>()
            .SingleInstance();
             builder.Populate(services);
